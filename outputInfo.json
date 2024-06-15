@@ -1,0 +1,46 @@
+{
+  "chainInfo": {
+    "minL2BaseFee": 100000000,
+    "networkFeeReceiver": "0x00000023DfCdE07675ac95bd09f5DBC2814fEb90",
+    "infrastructureFeeCollector": "0x00000023DfCdE07675ac95bd09f5DBC2814fEb90",
+    "batchPoster": "0x1C332c2986e12BaE08fe954819cA75d27f70F0D1",
+    "staker": "0xC1b465E819a92aCEeAF29833483D6eA654B55F84",
+    "chainOwner": "0x00000023DfCdE07675ac95bd09f5DBC2814fEb90",
+    "chainName": "Green Candle Devnet",
+    "chainId": 77755777,
+    "parentChainId": 421614,
+    "rpcUrl": "http://localhost:8449",
+    "explorerUrl": "http://localhost",
+    "nativeToken": "0x0000000000000000000000000000000000000000"
+  },
+  "coreContracts": {
+    "rollup": "0xdB2adAbf5a7026452142EeAD99a4098BBB153732",
+    "inbox": "0xfdC4F98F186f035b28Eb054Be35218834107ceb6",
+    "outbox": "0xfED10d1B792F4B2DaFAe9CF2De539AE4c20b11fC",
+    "adminProxy": "0xdd2430Aa66ee3364c25FC1A418E35890e10D4d18",
+    "sequencerInbox": "0x2364B3c733425b352aCD14b132BDCB620E6bDd07",
+    "bridge": "0x95d1Ee4745E41e90FC1C4111Ccd3D01470d1D246",
+    "utils": "0xB11EB62DD2B352886A4530A9106fE427844D515f",
+    "validatorWalletCreator": "0xEb9885B6c0e117D339F47585cC06a2765AaE2E0b"
+  },
+  "tokenBridgeContracts": {
+    "l2Contracts": {
+      "customGateway": "0x1BCd5256A474deC4fc7d9e3bBe2ADAD3C0Ba8D29",
+      "multicall": "0xce1CAd780c529e66e3aa6D952a1ED9A6447791c1",
+      "proxyAdmin": "0x0000000000000000000000000000000000000000",
+      "router": "0xaaB1C21348f07cccAE2611f083744B7dd28A3a36",
+      "standardGateway": "0xE21956CE2EaC814A234D20b061A4c4a009a7DE35",
+      "weth": "0x980B62Da83eFf3D4576C647993b0c1D7faf17c73",
+      "wethGateway": "0x2753Edc8F685Ea27B953f5DB66e96e801aB17937"
+    },
+    "l3Contracts": {
+      "customGateway": "0x36D8b2fc5a766cfAa2c7747F3B6d681Ff931A624",
+      "multicall": "0xB972b684acf641B240974e2368b26e4C39722b4E",
+      "proxyAdmin": "0xb1e16cE494b3039E13c1DDA553f30De8896e4EcB",
+      "router": "0xfbdD942dFe01D94C334898F866d317C8160CBA91",
+      "standardGateway": "0x7b405287C7674899C353Fec48Ef82d0813252a95",
+      "weth": "0x626476d1d66BF7F34672f9BA15f779A14f41C030",
+      "wethGateway": "0x53Ea7E8c5f9fEb5DcC82C8cFD8a612C641011a87"
+    }
+  }
+}
