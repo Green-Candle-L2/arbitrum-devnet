@@ -1,0 +1,19 @@
+version: '3.9'
+services:
+  nitro:
+    image: offchainlabs/nitro-node:v2.3.3-6a1c1a7
+    ports:
+      - "127.0.0.1:8449:8449"
+    volumes:
+      - "./config:/home/user/.arbitrum"
+    command: 
+      - --conf.file=/home/user/.arbitrum/nodeConfig.json
+      - --auth.addr=127.0.0.1
+      - --auth.origins=*
+      - --auth.port=8449
+      - --execution.forwarder.connection-timeout=30s
+      - --execution.forwarder.idle-connection-timeout=15s
+      - --execution.rpc.gas-cap=50000000
+      - --execution.rpc.tx-allow-unprotected=true
+      - --execution.tx-lookup-limit=0
+      - --log-level=3

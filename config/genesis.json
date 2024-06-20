@@ -1,0 +1,46 @@
+{
+    "chain-id": 16260324879,
+    "parent-chain-id": 84532,
+    "parent-chain-is-arbitrum": false,
+    "chain-name": "GreenCandle Devnet",
+    "chain-config": {
+        "homesteadBlock": 0,
+        "daoForkBlock": null,
+        "daoForkSupport": true,
+        "eip150Block": 0,
+        "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "eip155Block": 0,
+        "eip158Block": 0,
+        "byzantiumBlock": 0,
+        "constantinopleBlock": 0,
+        "petersburgBlock": 0,
+        "istanbulBlock": 0,
+        "muirGlacierBlock": 0,
+        "berlinBlock": 0,
+        "londonBlock": 0,
+        "clique": {
+            "period": 0,
+            "epoch": 0
+        },
+        "arbitrum": {
+            "EnableArbOS": true,
+            "AllowDebugPrecompiles": false,
+            "DataAvailabilityCommittee": true,
+            "InitialArbOSVersion": 20,
+            "GenesisBlockNum": 0,
+            "MaxCodeSize": 24576,
+            "MaxInitCodeSize": 49152,
+            "InitialChainOwner": "0x888888BB39c4448dB428397a58BBB066B7288391"
+        },
+        "chainId": 16260324879
+    },
+    "rollup": {
+        "bridge": "0xe8Dd136503F8669840a2FaCc27d393e7453F5D54",
+        "inbox": "0x5dc8eA809B0F5AA5CDde7F2A1eD1330E4234DFd1",
+        "sequencer-inbox": "0x247B5f15D2d9F5203d56B27f4b59E03Bdd0B4f7c",
+        "rollup": "0x597aa16B7a4B93721B8cC9aCC861371D240e8E5D",
+        "validator-utils": "0x0A2BFfDFF727f01347B001CEAB1C18E2294a1bCf",
+        "validator-wallet-creator": "0xa770D71aBD0A9d82be6B6B1FF197eb4FbffeeDB3",
+        "deployed-at": 11551091
+    }
+}
